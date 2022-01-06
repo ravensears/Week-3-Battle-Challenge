@@ -6,6 +6,6 @@ feature 'form' do
         fill_in :name2, with: 'Alex'
         click_button 'Submit'
 
-        expect(page).to have_content('Raven Alex')
+        expect(page).to have_content('Raven vs. Alex')
     end
 end
